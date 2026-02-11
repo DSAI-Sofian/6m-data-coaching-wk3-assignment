@@ -1,0 +1,158 @@
+# ===============================
+
+# Python
+
+# ===============================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ===============================
+
+# Jupyter / Notebook
+
+# ===============================
+
+.ipynb_checkpoints/
+
+# ===============================
+
+# Environment / Secrets
+
+# ===============================
+
+.env
+.env.*
+*.env
+*.local
+
+# ===============================
+
+# Logs
+
+# ===============================
+
+*.log
+logs/
+*.out
+
+# ===============================
+
+# Dataset / Large Files
+
+# (Prevent pushing large raw data)
+
+# ===============================
+
+data/
+datasets/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.sqlite
+*.db
+
+# Keep example / schema files if needed
+
+!data/README.md
+!data/schema.json
+
+# ===============================
+
+# Cache / Temporary
+
+# ===============================
+
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Python cache tools
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===============================
+
+# HuggingFace / Gradio
+
+# ===============================
+
+gradio_cached_examples/
+*.hfspace
+*.gradio
+
+# ===============================
+
+# PDF / Export artifacts
+
+# (Generated reports should not be versioned)
+
+# ===============================
+
+exports/
+reports/
+*.pdf
+
+# ===============================
+
+# OS / Editor
+
+# ===============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode
+
+.vscode/
+
+# JetBrains
+
+.idea/
+
+# ===============================
+
+# Git
+
+# ===============================
+
+*.orig
+*.rej
+*.swp
+
+# ===============================
+
+# Optional: Ignore local config
+
+# ===============================
+
+config.local.json
+settings.local.json
