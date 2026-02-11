@@ -1,0 +1,49 @@
+1. Using the attached 'SGJobData_cleaned.csv', create a 'Labour Intelligence Dashboard' with the following charts arranged in 2x2 format - optimized for user reading preference (left to right before going to the next line)
+
+2. Please create the following charts -
+a) Combo chart: Top 15 sectors in demand by number of job postings per sector (bar chart) overlayed with Top 15 sectors talent shortage index per sector (line plot).
+b) Volume of applications per sector (Top 15) against Salary band (Bubble / Scatter Chart).
+c) Median salary calculated for top 15 sectors in demand
+d) Heatmap chart of number of vacancies per sector (top 15) against salary band
+
+3. Salary bands as follows: <$3k, $3k - $6k, $7k - $10k, $11k - $15k, >$16k
+
+4. Optimize the dashboard for faster loading (e.g. using cache method)
+
+5. Generate an automatic commentary or a short executive summary of the results under each chart, providing an analysis tailored to the results displayed in the charts.
+
+6. Create 'captions' on mouse-rollover in the above charts.
+
+7. Use python 3.12 to code the above requirements and generate a package so that the application can be hosted on huggingface.
+
+8. Optimize this app for faster loading.
+
+------------------------- Added Interactivity -------------------------
+
+Top section
+1. Filter selections for users to choose between a selection of the top 15 on-demand sectors. Users must choose at least 1 sector and maximum 3 sectors. Use auto-comments if selection has not been made or more than the maximum 3 sectors have been selected.
+
+2. Salary band selection filter - <$3k, $3k - $6k, $7k - 10k, $11k - $15k, >$15k
+
+3. A 'Generate' button to click so that the graphs in the Middle section (below) are loaded. Graphs should not be auto-loaded at the start.
+
+Middle section
+1. The below graphs displayed in 2 x 2 format for intuitive viewing e.g. 1st row left to right, and then 2nd row left to right.
+
+2. The graphs to be displayed are:
+a) Combo chart showing Top 15 sectors on demand (barchart) overlayed with talent shortage index by sector (line plot)
+b) Sector Level Demand vs Salary Bubble / Scatter (Top 15 sectors also)
+c) Sector Level demand vs salary heatmap (minimum 1000 postings)
+
+3. Create a short auto-generated dynamic summaries (data-driven) below each chart
+
+4. On the open space to the right of the 3rd chart, use that space to generate a single executive summary (also auto-generated data-driven commentary) highlighting key impact and potential risks over time.
+
+Bottom section
+5. On the left side, add a maximum of 3 actionable business objectives for different target levels - government, company and workers.
+
+6. On the right side, add a maximum of 3 value propositions to match the corresponding actionable objectives on the left.
+
+7. Lastly, add 2 buttons - one to generate CSV file (based on the sectors selected, one csv per sector) and one to generate zipped csv (for all sectors selected), for users to download the data directly to their machine. Files should be date and timestamped.
+
+8. Finally, add a standard disclaimer right at the bottom of the page mentioning that this dashboard is created for the 'Data Science and Artificial Intelligence' course at NTU PACE. All rights reserved.

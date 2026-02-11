@@ -1,0 +1,55 @@
+Context (to link new chat to previous one)
+
+We are continuing development of the Singapore Labour Intelligence Dashboard built in Python (Gradio + Plotly). The base version includes:
+
+Composite Talent Shortage Index (0–100)
+
+4-panel dashboard (Demand vs TSI, Postings by Salary Band, Median Salary Trend, Vacancy Heatmap)
+
+Cached aggregation
+
+Singapore job-market dataset
+
+Your goal - Tell me which direction you want next (choose one or combine):
+
+A — Intelligence Layer
+Labour market tightness index (macro)
+Wage pressure index
+Supply–demand imbalance score
+Sector risk / overheating signals
+Executive narrative engine
+
+B — Analytics Upgrade
+Time-series forecasting (Prophet / ARIMA)
+Demand trend detection
+Structural shortage detection
+Salary band migration analysis
+
+C — Dashboard UX Upgrade
+Filters + instant recompute
+Drill-down by sector → salary → role
+KPI header cards
+Executive summary auto-generated
+
+D — Performance & Scale
+Polars / DuckDB engine
+Million-row optimization
+Lazy aggregation
+Incremental refresh
+
+E — Policy / Singapore Labour Lens
+MOM-style tightness index
+Workforce transformation signals
+Skills gap detection
+Local vs foreign workforce proxy
+
+
+When you open the new chat
+
+Tell me:
+Which enhancement track(s) you want (A–E)
+Whether dataset will remain the same or expand
+Whether this dashboard is for analysis / executive / public / strategy
+Then I will design the next architecture step and begin building.
+
+I’ll be ready when you open the new branch.
